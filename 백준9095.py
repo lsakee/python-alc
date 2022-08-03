@@ -13,7 +13,6 @@
 import sys
 input=sys.stdin.readline
 n = int(input()) #몇번할까 예제 3이니까 3번
-#추가 소스 동적계획법
 d=[1,2,4]
 for i in range(3,10) :
     #그전 코드는 어펜드가아님 sum이용했음

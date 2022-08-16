@@ -1,6 +1,6 @@
 import sys
 input=sys.stdin.readline
-n = int(input()) #몇번할까 예제 3이니까 3번
+n = int(input()) 
 d=[1,2]
 if (n>=3) :
     for i in range(2,n) :

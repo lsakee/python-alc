@@ -1,10 +1,10 @@
 
 import sys
 input=sys.stdin.readline
-n,m=map(int,input.split())
+n,m=map(int,input().split())
 arrs=[]
 for _ in range(n):
-    i1,i2=map(int,input.split())
+    i1,i2=map(int,input().split())
     arrs.append((i1,i2))
 dp = [0] * (m+1)
 for arr in arrs:
